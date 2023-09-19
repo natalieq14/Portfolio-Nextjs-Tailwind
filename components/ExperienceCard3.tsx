@@ -71,19 +71,10 @@ function ExperienceCard({}: Props) {
         <p className="uppercase py-5 text-gray-300">1/23/23-Current</p>
 
         <ul className="list-disc space-y-4 ml-5 text-lg h-[170px]">
-          <li>
-            Collaborated with cross-functional team of software engineers,
-            interns, and project managers to accomplish client projects
-          </li>
-          <li>
-            Participated in daily satnd-up meetings and code reviews, ensuring
-            code quality and alignment with project goals
-          </li>
-          <li>
-            Designed web applications structure with Figma and created object
-            oriented applications with React Flow UI nodes
-          </li>
-          <li>Produced UI Icon library for an Electronic attack system</li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
         </ul>
       </div>
     </article>
