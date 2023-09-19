@@ -1,11 +1,10 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import gtripicture from "../Images/gtripicture.jpg";
-import nextjslogo from "../Images/nextjslogo.png";
+import campus_logic from "../Images/campus_logic.jpg";
 import reactlogo from "../Images/reactlogo.png";
 import typescriptlogo from "../Images/typescriptlogo.png";
-import vsclogo from "../Images/vsclogo.png";
+import mga_logo from "../Images/mga_logo.jpg";
 
 type Props = {};
 
@@ -13,8 +12,8 @@ function ExperienceCard({}: Props) {
   return (
     //  article classname changes bg rectangles
     <article
-      className="flex  flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] 
-    md:w-[600px] xl:w-[900px] snap-center bg-[#292929] p-10 hover:opacity-100 
+      className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] 
+    md:w-[600px] xl:w-[755px] snap-center bg-[#292929] p-10 hover:opacity-100 
     opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden"
     >
       <motion.img
@@ -33,24 +32,24 @@ function ExperienceCard({}: Props) {
           once: true,
         }}
         className="w-32 h-32 rounded-full xl:w-[200px] xl:h-[200px] object-cover object-center"
-        src={gtripicture.src}
-        alt="GTRI Logo"
+        src={mga_logo.src}
+        alt="MGA Logo"
       />
 
-      {/* GTRI */}
+      {/* MGA */}
 
       <div className="px-0 md:px-10">
-        <h4 className="text-4xl font-light">Software Engineer Intern</h4>
+        <h4 className="text-4xl font-light">Chatbot Developer</h4>
         <p className="font-bold text-2xl mt-1">
-          Georgia Tech Research Institute
+          Middle Georgia State University
         </p>
         <div className="flex space-x-2 my-2">
           {/* Tech used logos*/}
 
           <Image
             className="h-10 w-10 rounded-full"
-            src={nextjslogo}
-            alt="Next.js Logo"
+            src={campus_logic}
+            alt="Campus Logic Logo"
           />
           <Image
             className="h-10 w-10 rounded-full"
@@ -62,22 +61,22 @@ function ExperienceCard({}: Props) {
             src={typescriptlogo}
             alt="TypeScript Logo"
           />
-          <Image
-            className="h-10 w-10 rounded-full"
-            src={vsclogo}
-            alt="Visual Studio Code Logo"
-          />
         </div>
-        <p className="uppercase py-5 text-gray-300">
-          Started work... Ended Work...
-        </p>
+        <p className="uppercase py-5 text-gray-300">2022</p>
 
         <ul className="list-disc space-y-4 ml-5 text-lg h-[170px]">
-          <li>Summary Points</li>
-          <li>Summary Points</li>
-          <li>Summary Points</li>
-          <li>Summary Points</li>
-          <li>Summary Points</li>
+          <li>
+            Define an efficient process for identifying targeted follow-up
+            questions based on keywords
+          </li>
+          <li>
+            Interview various department managers to develop frequent
+            conversational strategies from MGSU website users to implement in
+            the Chat Bot
+          </li>
+          <li>
+            Complete testing, reporting and optimization of training phrases
+          </li>
         </ul>
       </div>
     </article>

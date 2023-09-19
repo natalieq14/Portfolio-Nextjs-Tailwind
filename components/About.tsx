@@ -49,8 +49,19 @@ export default function About({}: Props) {
           background
         </h4>
         <p className="text-base">
-          Random Text about me. Here is stuff about my background and what I do
-          for a career and hobbies
+          My name is Natalie Quesenberry and I am an Information Technology
+          student at Middle Georgia State University. My concentration is
+          Software Engineering, but I am learning an array of skills to take me
+          far in the job world. On top of being a student, I am in several clubs
+          and organizations at MGSU!
+        </p>
+        <p className="text-base">
+          When I am not studying, you can find me playing relaxing games
+          cuddling my dogs or nurturing my plants. Fun fact: I also play the
+          flute for a local orchestra!
+        </p>
+        <p className="text-base">
+          Fun fact: I also play the flute for a local orchestra!
         </p>
       </div>
     </motion.div>
